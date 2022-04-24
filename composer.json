@@ -1,0 +1,21 @@
+{
+    "name": "fajarbc/grpc-php-client-example",
+    "description": "Example project of using gRPC client in PHP",
+    "authors": [
+        {
+            "name": "Fajar BC",
+            "email": "bcfajar@gmail.com"
+        }
+    ],
+    "require": {
+        "grpc/grpc": "1.27.0",
+        "google/protobuf": "v3.12.0",
+        "vlucas/phpdotenv": "^5.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "GPBMetadata\\" : "./php//GPBMetadata/",
+            "TodoPackage\\"     : "./php//TodoPackage/"
+        }
+    }
+}
